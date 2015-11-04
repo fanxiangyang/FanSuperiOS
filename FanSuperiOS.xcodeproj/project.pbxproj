@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6609D1191BEA4C45000B5407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609D1181BEA4C45000B5407 /* main.m */; };
+		6609D11C1BEA4C45000B5407 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609D11B1BEA4C45000B5407 /* AppDelegate.m */; };
+		6609D11F1BEA4C45000B5407 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609D11E1BEA4C45000B5407 /* ViewController.m */; };
+		6609D1221BEA4C45000B5407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6609D1201BEA4C45000B5407 /* Main.storyboard */; };
+		6609D1241BEA4C45000B5407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6609D1231BEA4C45000B5407 /* Assets.xcassets */; };
+		6609D1271BEA4C45000B5407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6609D1251BEA4C45000B5407 /* LaunchScreen.storyboard */; };
+		6609D1321BEA4C45000B5407 /* FanSuperiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609D1311BEA4C45000B5407 /* FanSuperiOSTests.m */; };
+		6609D13D1BEA4C45000B5407 /* FanSuperiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609D13C1BEA4C45000B5407 /* FanSuperiOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6609D12E1BEA4C45000B5407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6609D10C1BEA4C45000B5407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6609D1131BEA4C45000B5407;
+			remoteInfo = FanSuperiOS;
+		};
+		6609D1391BEA4C45000B5407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6609D10C1BEA4C45000B5407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6609D1131BEA4C45000B5407;
+			remoteInfo = FanSuperiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6609D1141BEA4C45000B5407 /* FanSuperiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanSuperiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6609D1181BEA4C45000B5407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6609D11A1BEA4C45000B5407 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6609D11B1BEA4C45000B5407 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6609D11D1BEA4C45000B5407 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6609D11E1BEA4C45000B5407 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6609D1211BEA4C45000B5407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6609D1231BEA4C45000B5407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6609D1261BEA4C45000B5407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6609D1281BEA4C45000B5407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6609D12D1BEA4C45000B5407 /* FanSuperiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanSuperiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6609D1311BEA4C45000B5407 /* FanSuperiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanSuperiOSTests.m; sourceTree = "<group>"; };
+		6609D1331BEA4C45000B5407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6609D1381BEA4C45000B5407 /* FanSuperiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanSuperiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6609D13C1BEA4C45000B5407 /* FanSuperiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanSuperiOSUITests.m; sourceTree = "<group>"; };
+		6609D13E1BEA4C45000B5407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6609D1111BEA4C45000B5407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6609D12A1BEA4C45000B5407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6609D1351BEA4C45000B5407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6609D10B1BEA4C45000B5407 = {
+			isa = PBXGroup;
+			children = (
+				6609D1161BEA4C45000B5407 /* FanSuperiOS */,
+				6609D1301BEA4C45000B5407 /* FanSuperiOSTests */,
+				6609D13B1BEA4C45000B5407 /* FanSuperiOSUITests */,
+				6609D1151BEA4C45000B5407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6609D1151BEA4C45000B5407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6609D1141BEA4C45000B5407 /* FanSuperiOS.app */,
+				6609D12D1BEA4C45000B5407 /* FanSuperiOSTests.xctest */,
+				6609D1381BEA4C45000B5407 /* FanSuperiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6609D1161BEA4C45000B5407 /* FanSuperiOS */ = {
+			isa = PBXGroup;
+			children = (
+				6609D11A1BEA4C45000B5407 /* AppDelegate.h */,
+				6609D11B1BEA4C45000B5407 /* AppDelegate.m */,
+				6609D11D1BEA4C45000B5407 /* ViewController.h */,
+				6609D11E1BEA4C45000B5407 /* ViewController.m */,
+				6609D1201BEA4C45000B5407 /* Main.storyboard */,
+				6609D1231BEA4C45000B5407 /* Assets.xcassets */,
+				6609D1251BEA4C45000B5407 /* LaunchScreen.storyboard */,
+				6609D1281BEA4C45000B5407 /* Info.plist */,
+				6609D1171BEA4C45000B5407 /* Supporting Files */,
+			);
+			path = FanSuperiOS;
+			sourceTree = "<group>";
+		};
+		6609D1171BEA4C45000B5407 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6609D1181BEA4C45000B5407 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6609D1301BEA4C45000B5407 /* FanSuperiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6609D1311BEA4C45000B5407 /* FanSuperiOSTests.m */,
+				6609D1331BEA4C45000B5407 /* Info.plist */,
+			);
+			path = FanSuperiOSTests;
+			sourceTree = "<group>";
+		};
+		6609D13B1BEA4C45000B5407 /* FanSuperiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6609D13C1BEA4C45000B5407 /* FanSuperiOSUITests.m */,
+				6609D13E1BEA4C45000B5407 /* Info.plist */,
+			);
+			path = FanSuperiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6609D1131BEA4C45000B5407 /* FanSuperiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6609D1411BEA4C45000B5407 /* Build configuration list for PBXNativeTarget "FanSuperiOS" */;
+			buildPhases = (
+				6609D1101BEA4C45000B5407 /* Sources */,
+				6609D1111BEA4C45000B5407 /* Frameworks */,
+				6609D1121BEA4C45000B5407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanSuperiOS;
+			productName = FanSuperiOS;
+			productReference = 6609D1141BEA4C45000B5407 /* FanSuperiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6609D12C1BEA4C45000B5407 /* FanSuperiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6609D1441BEA4C45000B5407 /* Build configuration list for PBXNativeTarget "FanSuperiOSTests" */;
+			buildPhases = (
+				6609D1291BEA4C45000B5407 /* Sources */,
+				6609D12A1BEA4C45000B5407 /* Frameworks */,
+				6609D12B1BEA4C45000B5407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6609D12F1BEA4C45000B5407 /* PBXTargetDependency */,
+			);
+			name = FanSuperiOSTests;
+			productName = FanSuperiOSTests;
+			productReference = 6609D12D1BEA4C45000B5407 /* FanSuperiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6609D1371BEA4C45000B5407 /* FanSuperiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6609D1471BEA4C45000B5407 /* Build configuration list for PBXNativeTarget "FanSuperiOSUITests" */;
+			buildPhases = (
+				6609D1341BEA4C45000B5407 /* Sources */,
+				6609D1351BEA4C45000B5407 /* Frameworks */,
+				6609D1361BEA4C45000B5407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6609D13A1BEA4C45000B5407 /* PBXTargetDependency */,
+			);
+			name = FanSuperiOSUITests;
+			productName = FanSuperiOSUITests;
+			productReference = 6609D1381BEA4C45000B5407 /* FanSuperiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6609D10C1BEA4C45000B5407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "向阳凡";
+				TargetAttributes = {
+					6609D1131BEA4C45000B5407 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					6609D12C1BEA4C45000B5407 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6609D1131BEA4C45000B5407;
+					};
+					6609D1371BEA4C45000B5407 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6609D1131BEA4C45000B5407;
+					};
+				};
+			};
+			buildConfigurationList = 6609D10F1BEA4C45000B5407 /* Build configuration list for PBXProject "FanSuperiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6609D10B1BEA4C45000B5407;
+			productRefGroup = 6609D1151BEA4C45000B5407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6609D1131BEA4C45000B5407 /* FanSuperiOS */,
+				6609D12C1BEA4C45000B5407 /* FanSuperiOSTests */,
+				6609D1371BEA4C45000B5407 /* FanSuperiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6609D1121BEA4C45000B5407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6609D1271BEA4C45000B5407 /* LaunchScreen.storyboard in Resources */,
+				6609D1241BEA4C45000B5407 /* Assets.xcassets in Resources */,
+				6609D1221BEA4C45000B5407 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6609D12B1BEA4C45000B5407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6609D1361BEA4C45000B5407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6609D1101BEA4C45000B5407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6609D11F1BEA4C45000B5407 /* ViewController.m in Sources */,
+				6609D11C1BEA4C45000B5407 /* AppDelegate.m in Sources */,
+				6609D1191BEA4C45000B5407 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6609D1291BEA4C45000B5407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6609D1321BEA4C45000B5407 /* FanSuperiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6609D1341BEA4C45000B5407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6609D13D1BEA4C45000B5407 /* FanSuperiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6609D12F1BEA4C45000B5407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6609D1131BEA4C45000B5407 /* FanSuperiOS */;
+			targetProxy = 6609D12E1BEA4C45000B5407 /* PBXContainerItemProxy */;
+		};
+		6609D13A1BEA4C45000B5407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6609D1131BEA4C45000B5407 /* FanSuperiOS */;
+			targetProxy = 6609D1391BEA4C45000B5407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6609D1201BEA4C45000B5407 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6609D1211BEA4C45000B5407 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6609D1251BEA4C45000B5407 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6609D1261BEA4C45000B5407 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6609D13F1BEA4C45000B5407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6609D1401BEA4C45000B5407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6609D1421BEA4C45000B5407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FanSuperiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanSuperiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6609D1431BEA4C45000B5407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FanSuperiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanSuperiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6609D1451BEA4C45000B5407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FanSuperiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanSuperiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanSuperiOS.app/FanSuperiOS";
+			};
+			name = Debug;
+		};
+		6609D1461BEA4C45000B5407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FanSuperiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanSuperiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanSuperiOS.app/FanSuperiOS";
+			};
+			name = Release;
+		};
+		6609D1481BEA4C45000B5407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FanSuperiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanSuperiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FanSuperiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6609D1491BEA4C45000B5407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FanSuperiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanSuperiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FanSuperiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6609D10F1BEA4C45000B5407 /* Build configuration list for PBXProject "FanSuperiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6609D13F1BEA4C45000B5407 /* Debug */,
+				6609D1401BEA4C45000B5407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6609D1411BEA4C45000B5407 /* Build configuration list for PBXNativeTarget "FanSuperiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6609D1421BEA4C45000B5407 /* Debug */,
+				6609D1431BEA4C45000B5407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6609D1441BEA4C45000B5407 /* Build configuration list for PBXNativeTarget "FanSuperiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6609D1451BEA4C45000B5407 /* Debug */,
+				6609D1461BEA4C45000B5407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6609D1471BEA4C45000B5407 /* Build configuration list for PBXNativeTarget "FanSuperiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6609D1481BEA4C45000B5407 /* Debug */,
+				6609D1491BEA4C45000B5407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6609D10C1BEA4C45000B5407 /* Project object */;
+}
