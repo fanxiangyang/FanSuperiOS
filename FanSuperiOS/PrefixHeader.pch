@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  FanSuperiOS
+//
+//  Created by 向阳凡 on 15/11/4.
+//  Copyright © 2015年 向阳凡. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import "FanHeader.h"
+#import "UIView+FanAutoLayout.h"
+#import "UIViewController+RootClass.h"
+#import "Utility.h"
+#import "MBProgressHUD.h"
+
+#endif
+
+
+#endif /* PrefixHeader_pch */
