@@ -2,12 +2,12 @@
 many animation，Native threeLogin（多种动画，原生第三方登录）
 
 ###  动画 
-* 
+ (https://raw.github.com/fanxiangyang/FanSuperiOS/iOS1.gif)
+
 
 ### 原生第三方登录
 
-
-
+(https://raw.github.com/fanxiangyang/FanSuperiOS/iOS2.gif)
 
 ###开发环境
 

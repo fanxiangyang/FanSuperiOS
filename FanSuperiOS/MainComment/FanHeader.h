@@ -10,6 +10,7 @@
 #define FanHeader_h
 
 
+
 #define iOSVersion   ([[UIDevice currentDevice]systemVersion].floatValue)
 #define kWidth (([UIScreen mainScreen].bounds.size.width)>([UIScreen mainScreen].bounds.size.height)?([UIScreen mainScreen].bounds.size.height):([UIScreen mainScreen].bounds.size.width))
 #define kHeight (([UIScreen mainScreen].bounds.size.height)>([UIScreen mainScreen].bounds.size.width)?([UIScreen mainScreen].bounds.size.height):([UIScreen mainScreen].bounds.size.width))
@@ -22,6 +23,12 @@
 
 
 
+
+#ifdef DEBUG
+# define FanLog(fmt, ...) NSLog((@"[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d] \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+# define FanLog(...);
+#endif
 
 
 
