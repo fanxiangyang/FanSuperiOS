@@ -1,9 +1,10 @@
 # FanSuperiOS
-many animation，Native threeLogin（多种动画，原生第三方登录）
+many animation，Native threeLogin（多种动画，原生第三方登录，分享）
 
-###  动画 
-查看项目路径下gif图片
- (https://github.com/fanxiangyang/FanSuperiOS/iOS1.gif)
+###  1.动画 
+*各种动画，及画图结合
+*查看项目路径下gif图片
+*(https://github.com/fanxiangyang/FanSuperiOS/iOS1.gif)
 ```
 #pragma mark - CATransition基本动画
 /**动画切换页面的效果(CATransition)
@@ -68,11 +69,12 @@ many animation，Native threeLogin（多种动画，原生第三方登录）
 #pragma mark - 其他辅佐方法
 /**快速获得视图相对屏幕的坐标*/
 + (CGRect)fan_relativeFrameForScreenWithView:(UIView *)v;
+```
 
-
-### 原生第三方登录
-查看项目路径下gif图片
-(https://github.com/fanxiangyang/FanSuperiOS/iOS2.gif)
+### 2.原生第三方登录，分享
+*实现QQ，微信，微博，Facebook，Twitter原生第三方登录分享
+*查看项目路径下gif图片
+*(https://github.com/fanxiangyang/FanSuperiOS/iOS2.gif)
 ```
 @protocol FanThreeLoginManagerDelegate <NSObject>
 
@@ -108,6 +110,13 @@ many animation，Native threeLogin（多种动画，原生第三方登录）
 -(void)shareModel:(FanShareModel *)shareModel type:(FanLoginType)loginType;
 
 @end
+```
+###其他功能
+*纯代码Autolayout
+*常用工厂类方法Utility.m
+*3D-Touch功能
+*封装系统的二维码功能
+
 
 ###开发环境
 
