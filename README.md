@@ -4,7 +4,9 @@ many animation，Native threeLogin（多种动画，原生第三方登录，分�
 ###  1.动画 
 *各种动画，及画图结合
 *查看项目路径下gif图片
-![动画](https://github.com/fanxiangyang/FanSuperiOS/iOS1.gif)
+
+![动画](https://github.com/fanxiangyang/FanSuperiOS/blob/master/iOS1.gif?raw=true)
+
 ```
 #pragma mark - CATransition基本动画
 /**动画切换页面的效果(CATransition)
@@ -74,7 +76,9 @@ many animation，Native threeLogin（多种动画，原生第三方登录，分�
 ### 2.原生第三方登录，分享
 *实现QQ，微信，微博，Facebook，Twitter原生第三方登录分享
 *查看项目路径下gif图片
-![原生登录和分享](https://github.com/fanxiangyang/FanSuperiOS/iOS2.gif)
+
+![原生登录和分享](https://github.com/fanxiangyang/FanSuperiOS/blob/master/iOS2.gif?raw=true)
+
 ```
 @protocol FanThreeLoginManagerDelegate <NSObject>
 
