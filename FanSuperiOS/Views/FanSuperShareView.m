@@ -28,15 +28,15 @@
     shareView.delegate=delegate;
     [shareView show];
 }
--(instancetype)initWithFrame:(CGRect)frame{
-    self=[super initWithFrame:frame];
-    if (self) {
-        self.backgroundColor=[UIColor clearColor];
-        self.frame=CGRectMake(0, 0, kWidth, kHeight);
-        [self createShareUI];
-    }
-    return self;
-}
+//-(instancetype)initWithFrame:(CGRect)frame{
+//    self=[super initWithFrame:frame];
+//    if (self) {
+//        self.backgroundColor=[UIColor clearColor];
+//        self.frame=CGRectMake(0, 0, kWidth, kHeight);
+//        [self createShareUI];
+//    }
+//    return self;
+//}
 -(instancetype)init{
     self=[super init];
     if (self) {
